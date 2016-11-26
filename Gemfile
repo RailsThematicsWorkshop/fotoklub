@@ -50,3 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'mailcatcher'
+gem 'sinatra', '2.0.0.beta2'
