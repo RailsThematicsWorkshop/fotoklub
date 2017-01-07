@@ -8,9 +8,4 @@ class HomeController < ApplicationController
   def events
   end
 
-  def photos
-    @images = Dir.glob("app/assets/images/photos/*.jpg").map do |path|
-      path.split('/').last
-    end
-  end
 end
