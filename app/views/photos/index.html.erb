@@ -8,7 +8,7 @@
   <% @images.each_slice(2) do |images| %>
     <% images.each do |image| %>
       <div class="col-xs-12 col-md-6 text-center bottom10 top10">
-        <%= image_tag "photos/#{image}" %>
+        <%= image_tag image.photo.url %>
       </div>
     <% end %>
   <% end %>
