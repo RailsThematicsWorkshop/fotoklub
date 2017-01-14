@@ -53,3 +53,4 @@ gem 'mailcatcher'
 gem 'sinatra', '2.0.0.beta2'
 
 gem 'carrierwave'
+gem 'mini_magick'
